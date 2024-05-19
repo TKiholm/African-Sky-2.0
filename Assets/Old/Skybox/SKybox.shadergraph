@@ -1187,7 +1187,7 @@
     "m_Hidden": false,
     "m_Value": {
         "x": 8.0,
-        "y": 4.0,
+        "y": 8.0,
         "z": 0.0,
         "w": 0.0
     }
@@ -2076,34 +2076,6 @@
 
 {
     "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
-    "m_ObjectId": "aa26376375c44d6f8b69deac418f4efc",
-    "m_Guid": {
-        "m_GuidSerialized": "9335be23-6ca6-4355-845d-26f20612d44a"
-    },
-    "m_Name": "Star _Size_",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Star _Size_",
-    "m_DefaultReferenceName": "_Star_Size_",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_DismissedVersion": 0,
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": 2.0,
-    "m_FloatType": 0,
-    "m_RangeValues": {
-        "x": 0.0,
-        "y": 1.0
-    }
-}
-
-{
-    "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.VoronoiNode",
     "m_ObjectId": "afae148a60264e6991e61db8f5cb5814",
     "m_Group": {
@@ -2642,9 +2614,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.10733355581760407,
-        "g": 0.16618405282497407,
-        "b": 0.3396226167678833,
+        "r": 0.10588235408067703,
+        "g": 0.1497487872838974,
+        "b": 0.34117648005485537,
         "a": 0.0
     },
     "isMainColor": false,
@@ -3078,7 +3050,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 5.0,
+    "m_Value": 4.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -3260,6 +3232,34 @@
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "aa26376375c44d6f8b69deac418f4efc",
+    "m_Guid": {
+        "m_GuidSerialized": "9335be23-6ca6-4355-845d-26f20612d44a"
+    },
+    "m_Name": "Star _Size_",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Star _Size_",
+    "m_DefaultReferenceName": "_Star_Size_",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 0.5,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
     }
 }
 
