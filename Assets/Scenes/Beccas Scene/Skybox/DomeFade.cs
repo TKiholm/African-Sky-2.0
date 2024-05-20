@@ -4,8 +4,15 @@ using UnityEngine;
 
 public class DomeFade : MonoBehaviour
 {
+
+    [SerializeField] private Wait wait;
+    private bool EmbersA;
+
     public GameObject dome;
     bool faded;
+
+
+
     public IEnumerator FadeOutObject(GameObject objToFade)
     {
         // Get the mesh renderer of the object
@@ -40,12 +47,13 @@ public class DomeFade : MonoBehaviour
     }
     public void Update()
     {
-        if (!faded)
-        {
 
+        EmbersA = wait.Embers;
+
+        if (EmbersA == true)
+        {
             StartCoroutine(FadeOutObject(dome));
         }
-        
     }
 
 }
