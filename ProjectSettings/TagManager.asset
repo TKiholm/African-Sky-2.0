@@ -7,6 +7,7 @@ TagManager:
   - Embers
   - Meat
   - Sky
+  - Log
   layers:
   - Default
   - TransparentFX
