@@ -30,7 +30,7 @@ public class Wait : MonoBehaviour
     void Start()
     {
          anim = gameObject.GetComponent<Animator>();
-        StartCoroutine(Beginning());
+         StartCoroutine(Beginning());
     }
 
     // Update is called once per frame
