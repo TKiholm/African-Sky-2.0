@@ -11,6 +11,10 @@ public class Wait : MonoBehaviour
     Animator anim;
     // Start is called before the first frame update
 
+    public bool Log = false;
+    public bool Meat = false;
+    public bool Embers = false; 
+
     
     public AudioClip Para1;
     public AudioClip Para2;
@@ -29,7 +33,8 @@ public class Wait : MonoBehaviour
 
     void Start()
     {
-         anim = gameObject.GetComponent<Animator>();
+
+        anim = gameObject.GetComponent<Animator>();
          //StartCoroutine(Beginning());
     }
 
@@ -44,17 +49,20 @@ public class Wait : MonoBehaviour
         
         if(collision.gameObject.tag == "Log")
         {
+            Log = true;
             StartCoroutine(Beginning());
         }
         
         
         if(collision.gameObject.tag == "Meat")
         {
+            Meat = true;
             StartCoroutine(Middle());
         }
 
         if(collision.gameObject.tag == "Embers")
         {
+            Embers = true;
             StartCoroutine(End());
         }
         

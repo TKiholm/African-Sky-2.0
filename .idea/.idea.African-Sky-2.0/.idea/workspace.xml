@@ -3,9 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="fb81384e-e440-42d8-91c8-385349afad36" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.African-Sky-2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.African-Sky-2.0/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FrameRateLog_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FrameRateLog_1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FrameRateLog_1.csv.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FrameRateLog_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FrameRateLog_2.csv.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FrameRateLog_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FrameRateLog_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FrameRateLog_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FrameRateLog_6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FrameRateLog_6.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Old/Animations/Wait.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Old/Animations/Wait.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene/Logger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene/Logger.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

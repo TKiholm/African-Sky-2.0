@@ -5,9 +5,16 @@ using UnityEngine;
 
 public class Logger : MonoBehaviour
 {
+    [SerializeField] private Wait wait;
+    
     public float logInterval = 5.0f; // Interval in seconds to log the framerate
     private float elapsedTime = 0.0f;
     private int frameCount = 0;
+
+    private bool LogA;
+    private bool MeatA;
+    private bool EmbersA;
+    private int step = 0;
 
     private List<string> frameRateLog = new List<string>();
     private string filePath;
@@ -30,6 +37,26 @@ public class Logger : MonoBehaviour
 
     void Update()
     {
+        
+        LogA = wait.Log;
+        MeatA = wait.Meat;
+        EmbersA = wait.Embers;
+        
+        if (LogA == true)
+        {
+            step = 1;
+        }
+        
+        if (MeatA== true)
+        {
+            step = 2;
+        }
+        
+        if (EmbersA == true)
+        {
+            step = 3;
+        }
+        
         // Increment the frame count and elapsed time
         frameCount++;
         elapsedTime += Time.deltaTime;
@@ -45,7 +72,7 @@ public class Logger : MonoBehaviour
             float averageFrameRate = frameCount / elapsedTime;
 
             // Log the framerate with the timestamp
-            string logEntry = string.Format("{0},{1}", Mathf.RoundToInt(Time.time), Mathf.RoundToInt(averageFrameRate));
+            string logEntry = string.Format("{0},{1}", Mathf.RoundToInt(Time.time), Mathf.RoundToInt(averageFrameRate), step);
             frameRateLog.Add(logEntry);
 
             // Reset the counters

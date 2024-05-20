@@ -2342,6 +2342,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cf2386285d373a4d99761315929af63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Log: 0
+  Meat: 0
+  Embers: 0
   Para1: {fileID: 0}
   Para2: {fileID: 0}
   Para3: {fileID: 0}
@@ -9090,6 +9093,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cf2386285d373a4d99761315929af63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Log: 0
+  Meat: 0
+  Embers: 0
   Para1: {fileID: 8300000, guid: 84c0a92d1b83bc940b27d55f3f0b3d50, type: 3}
   Para2: {fileID: 8300000, guid: 781681da7c2aea94d8de12389d40632e, type: 3}
   Para3: {fileID: 8300000, guid: 61b7030ba47f0794e9512c5d609f7368, type: 3}
@@ -15911,6 +15917,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cf2386285d373a4d99761315929af63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Log: 0
+  Meat: 0
+  Embers: 0
   Para1: {fileID: 0}
   Para2: {fileID: 0}
   Para3: {fileID: 0}
@@ -16719,6 +16728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84d4eadc538f0a44b9195b8c65cbc126, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wait: {fileID: 1191760765}
   logInterval: 1
 --- !u!1 &1989108988 stripped
 GameObject:
@@ -16834,6 +16844,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cf2386285d373a4d99761315929af63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Log: 0
+  Meat: 0
+  Embers: 0
   Para1: {fileID: 0}
   Para2: {fileID: 0}
   Para3: {fileID: 0}
