@@ -30,7 +30,7 @@ public class Wait : MonoBehaviour
     void Start()
     {
          anim = gameObject.GetComponent<Animator>();
-        // StartCoroutine(Beginning());
+         StartCoroutine(Beginning());
     }
 
     // Update is called once per frame
@@ -41,24 +41,13 @@ public class Wait : MonoBehaviour
     
     public void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Log")
-        {
-            StartCoroutine(Beginning());
-        }
-        
         if(collision.gameObject.tag == "Meat")
         {
             StartCoroutine(Middle());
         }
-        
-        if(collision.gameObject.tag == "Embers")
-        {
-            StartCoroutine(End());
-        }
 
 
     }
-    
 
 
     IEnumerator Beginning()
@@ -134,10 +123,10 @@ public class Wait : MonoBehaviour
         anim.SetTrigger("Man2Running");
 
 
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(4);
         anim.SetTrigger("TheManRunning");
         //Cave, Man1Running, Man2Running måske 3-4 sekunder før manden
-        yield return new WaitForSeconds(12);
+        yield return new WaitForSeconds(14);
         anim.SetTrigger("TheManRunningR");
         anim.SetTrigger("CaveR");
         anim.SetTrigger("Man1RunningR");
