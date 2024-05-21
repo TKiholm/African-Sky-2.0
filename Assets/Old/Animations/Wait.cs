@@ -13,7 +13,9 @@ public class Wait : MonoBehaviour
 
     public bool Log = false;
     public bool Meat = false;
-    public bool Embers = false; 
+    public bool Embers = false;
+    public bool MeatReady = false;
+    public bool EmbersReady = false;
 
     
     public AudioClip Para1;
@@ -101,13 +103,14 @@ public class Wait : MonoBehaviour
         yield return new WaitForSeconds(5);
         anim.SetTrigger("CaveFire");
         yield return new WaitForSeconds(20);
+        MeatReady = true;
         // indsæt collision trigger
 
 
-        
 
 
-     
+
+
 
     }
 
@@ -161,9 +164,9 @@ public class Wait : MonoBehaviour
         anim.SetTrigger("ManInPouch");
         yield return new WaitForSeconds(5);
         anim.SetTrigger("ManInPouchR");
-        //Set Second Trigger
-        
-        
+        EmbersReady = true;
+
+
     }
     
     IEnumerator End(){

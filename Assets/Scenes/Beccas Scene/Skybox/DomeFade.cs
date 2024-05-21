@@ -15,6 +15,7 @@ public class DomeFade : MonoBehaviour
 
     public IEnumerator FadeOutObject(GameObject objToFade)
     {
+        //yield return new WaitForSeconds(4);
         // Get the mesh renderer of the object
         MeshRenderer meshRenderer = objToFade.GetComponent<MeshRenderer>();
 
@@ -25,7 +26,7 @@ public class DomeFade : MonoBehaviour
         while (color.a > 0)
         {
             // Reduce the color's alpha value
-            color.a -= 0.01f;
+            color.a -= 0.00008f;
 
             // Apply the modified color to the object's mesh renderer
             meshRenderer.materials[0].color = color;
@@ -44,6 +45,7 @@ public class DomeFade : MonoBehaviour
     private void Start()
     {
         faded = false;
+       // StartCoroutine(FadeOutObject(dome));
     }
     public void Update()
     {

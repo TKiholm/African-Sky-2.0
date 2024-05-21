@@ -47,7 +47,7 @@ public class Logger : MonoBehaviour
             step = 1;
         }
         
-        if (MeatA== true)
+        if (MeatA == true)
         {
             step = 2;
         }
@@ -72,7 +72,7 @@ public class Logger : MonoBehaviour
             float averageFrameRate = frameCount / elapsedTime;
 
             // Log the framerate with the timestamp
-            string logEntry = string.Format("{0},{1}", Mathf.RoundToInt(Time.time), Mathf.RoundToInt(averageFrameRate), step);
+            string logEntry = string.Format("{0},{1}, {2}", Mathf.RoundToInt(Time.time), Mathf.RoundToInt(averageFrameRate), step);
             frameRateLog.Add(logEntry);
 
             // Reset the counters
