@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb81384e-e440-42d8-91c8-385349afad36" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.African-Sky-2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.African-Sky-2.0/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FrameRateLog_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FrameRateLog_1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FrameRateLog_2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FrameRateLog_2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Old/Animations/Wait.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Old/Animations/Wait.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene/Logger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene/Logger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene/Skybox/DomeFade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene/Skybox/DomeFade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FrameRateLog_10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FrameRateLog_9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FrameRateLog_9.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene/LightingData.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene/ReflectionProbe-0.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene/ReflectionProbe-0.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Beccas Scene/ReflectionProbe-0.exr.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <updated>1716205193937</updated>
       <workItem from="1716205202235" duration="5000" />
       <workItem from="1716209741766" duration="1001000" />
-      <workItem from="1716277728188" duration="6225000" />
+      <workItem from="1716277728188" duration="6226000" />
     </task>
     <servers />
   </component>

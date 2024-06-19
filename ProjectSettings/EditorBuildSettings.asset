@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Test.unity
     guid: a65b42ad1b4a03e40b1267d2d3636099
+  - enabled: 1
+    path: Assets/Scenes/Beccas Scene.unity
+    guid: 74eab3cfde50f1845a3672606a963dd4
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 267dd232638be044490a663ffc6a3476,
       type: 2}
